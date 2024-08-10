@@ -173,6 +173,8 @@ async def start(client, message):
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ],[
                         InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                    ],[
+                        InlineKeyboardButton('🔥 Ultra Fast Download/Stream 🔥', url="https://t.me/AnshumanFTL4Bot")
                     ]]
                     reply_markup=InlineKeyboardMarkup(button)
                 else:
@@ -516,6 +518,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
             ],[
                 InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+            ],[
+                InlineKeyboardButton('🔥 Ultra Fast Download/Stream 🔥', url="https://t.me/AnshumanFTL4Bot")
             ]]
             reply_markup=InlineKeyboardMarkup(button)
             await query.message.reply_text(
@@ -528,7 +532,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             print(e)  # print the error message
             await query.answer(f"☣something went wrong\n\n{e}", show_alert=True)
             return
-
+           
+            
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
