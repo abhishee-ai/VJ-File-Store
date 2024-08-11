@@ -205,7 +205,7 @@ async def start(client, message):
             await asyncio.sleep(1) 
         await sts.delete()
         if AUTO_DELETE_MODE == True:
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>👉Please forward this recieved Files/Videos to Ultra Fast Download/Stream Bot for better downloading and streaming experience.<\b>\n\n<\b>👉Please forward this recieved Files/Videos to Ultra Fast Download/Stream Bot for better downloading and streaming experience<\i><\b>.\n\n<b><i>👉इस बोट से प्राप्त फाइल/विडियो को कृप्या Ultra Fast Download/Stream Bot में फॉरवर्ड करें,बेहतर डाउनलोडिंग अनुभव एवं ऑनलाइन देखने के लिए ।<i></b>")
             await asyncio.sleep(AUTO_DELETE_TIME)
             for x in filesarr:
                 try:
@@ -266,7 +266,7 @@ async def start(client, message):
                     )
                 )
             if AUTO_DELETE_MODE == True:
-                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>👉Please forward this recieved Files/Videos to Ultra Fast Download/Stream Bot for better downloading and streaming experience.<\b>\n\n<\b>👉Please forward this recieved Files/Videos to Ultra Fast Download/Stream Bot for better downloading and streaming experience<\i><\b>.\n\n<b><i>👉इस बोट से प्राप्त फाइल/विडियो को कृप्या Ultra Fast Download/Stream Bot में फॉरवर्ड करें,बेहतर डाउनलोडिंग अनुभव एवं ऑनलाइन देखने के लिए ।<i></b>")
                 await asyncio.sleep(AUTO_DELETE_TIME)
                 try:
                     await msg.delete()
@@ -327,7 +327,7 @@ async def start(client, message):
             )
         )
     if AUTO_DELETE_MODE == True:
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>👉Please forward this recieved Files/Videos to Ultra Fast Download/Stream Bot for better downloading and streaming experience<\i><\b>.\n\n<b><i>👉इस बोट से प्राप्त फाइल/विडियो को कृप्या Ultra Fast Download/Stream Bot में फॉरवर्ड करें,बेहतर डाउनलोडिंग अनुभव एवं ऑनलाइन देखने के लिए ।<i></b>")
         await asyncio.sleep(AUTO_DELETE_TIME)
         try:
             await x.delete()
