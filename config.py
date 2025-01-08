@@ -56,11 +56,11 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Verify Info :-
-VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
+VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "ziplinker.net") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "76212ca70f555b89c8845b29db243f4e588590f9") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "api.gplinks.com") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "c5498fb0271b2e6362df4cdc9fdadbd8104ebff7") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Panchayat_season_3_webserees") # how to open link 
 
 # Website Info:
